@@ -1,0 +1,45 @@
+.card {
+    width: 20rem auto;
+    background: white;
+    padding: 1rem;
+    transition: 0.2s ease-in-out all;
+    border-radius: 6px;
+    position: relative;
+    overflow: hidden;
+    border: 2px solid black;
+}
+
+.card-id {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 5rem;
+    height: 2rem;
+    color: black;
+    background-color: azure;
+    position: absolute;
+    border-radius: 0 0 10px 0;
+    margin: auto;
+    top: -0.5px;
+    left: -0.5px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.card-name {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+
+.card-image {
+    width: 100%;
+    display: inline-block;
+    margin: auto;
+    text-align: center;
+    padding: 1px;
+}
+
+.card-details {
+    font-size: 20px;
+}
+

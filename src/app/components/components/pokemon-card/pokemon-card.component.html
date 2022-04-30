@@ -1,0 +1,6 @@
+<!--https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png-->
+<div class="card" style="border: 4px solid;" [ngStyle]="{'border-color': this.color}">
+    <span class="card-id" style="border: 3px solid;" [ngStyle]="{backgroundColor: this.color, 'border-color': this.color}"><b style="padding-left: 1rem;">{{this.id}}</b></span>
+    <img class="card-image" [src]="this.image" alt="pokemon"/>
+    <h1 class="card-name" style="font-weight: bold;"[ngStyle]="{'color': this.color}">{{this.name}}</h1>
+</div>
